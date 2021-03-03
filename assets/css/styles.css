@@ -1,0 +1,151 @@
+/* ============ General Text Styles ============ */
+
+body {
+    margin: 0;
+    background-color: pink;
+    color: #3F526F;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    font-family: 'Quicksand', sans-serif;
+}
+
+h2 {
+    font-family: 'Quicksand', sans-serif;
+    color: #FF84A1;
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* ============ Navbar Styles ============ */
+
+#navbar {
+    position: relative;
+    height: 60px;
+    /* background-color: aliceblue; */
+}
+
+#nav-menu, #nav-menu:active, #nav-menu:visited {
+    color: #3F526F;
+    position: absolute;
+    top: 20px;
+    right: 60px;
+    text-decoration: none;
+}
+
+#logo {
+    position: absolute;
+    left: 60px;
+    width: 60px;
+}
+
+/* ============ Body Styles ============ */
+
+/* Intro Div */
+#intro-box {
+    padding: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#big-title {
+    max-width: 100px;
+    width: auto;
+    font-size: 60px;
+    display: flex;
+    align-items: center;
+}
+
+#donut-vector {
+    max-width: 35%;
+    height: auto;
+}
+
+/* Story Div */
+
+#about-us {
+    display: flex;
+    flex-direction: row;
+    padding: 30px;
+    align-items: center;
+    background-color: rgb(255, 210, 217);
+}
+
+#story-text {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    padding: 40px;
+}
+
+#shop {
+    max-width: 45%;
+    height: auto;
+    margin-right: 40px;
+}
+
+/* Contact Div */
+
+#contact {
+    display: flex;
+    flex-direction: row;
+    margin: 30px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#map {
+    max-width: 50%;
+    height: auto;
+}
+
+button {
+    color: white;
+    background-color: #FF84A1;
+    padding: 20px;
+    border: none;
+    font-family: 'Quicksand', sans-serif;
+    cursor: pointer;
+    border-radius: 12px;
+}
+
+ #c-button-holder {
+    display: flex;
+    justify-content: center;
+}
+
+/* ============ Footer Styles ============ */
+
+#footer {
+    height: 160px;
+    padding: 30px;
+    background-color: rgb(255, 210, 217);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#f-menu, #f-menu:active, #f-menu:visited {
+    color: #3F526F;
+    text-decoration: none;
+}
+
+#f-name {
+    display: flex;
+    flex-direction: row;
+}
+
+#f-nav {
+    display: flex;
+    flex-direction: column;
+}
+
+#f-contact {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
