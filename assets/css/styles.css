@@ -47,9 +47,11 @@ p {
 /* Intro Div */
 #intro-box {
     padding: 40px;
+    height: 550px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    align-items: center;
 }
 
 #big-title {
@@ -108,6 +110,8 @@ button {
     background-color: #FF84A1;
     padding: 20px;
     border: none;
+    font-size: 18px;
+    width: 175px;
     font-family: 'Quicksand', sans-serif;
     cursor: pointer;
     border-radius: 12px;
@@ -121,9 +125,12 @@ button {
 /* ============ Footer Styles ============ */
 
 #footer {
-    height: 160px;
+    height: 190px;
     padding: 30px;
     background-color: rgb(255, 210, 217);
+}
+
+#footer-main {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -135,17 +142,33 @@ button {
 }
 
 #f-name {
+    margin-top: 30px;
     display: flex;
     flex-direction: row;
 }
 
 #f-nav {
+    margin: 20px;
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
 }
 
 #f-contact {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+}
+
+hr {
+    border-top: 2px solid pink;
+    border-radius: 5px;  
+}
+
+#f-credit {
+    margin: 15px;
+    font-size: 14px;
+    font-weight: lighter;
+    color: #FF84A1;
+    text-align: center;
 }

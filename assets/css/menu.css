@@ -1,0 +1,87 @@
+body {
+    background-color: rgb(255, 210, 217);
+}
+
+.section-head {
+    color: #3F526F;
+    margin: auto;
+}
+
+h3 {
+    font-style: Poppins;
+    /* text-align: center; */
+}
+
+#navbar {
+    background-color: #FF84A1;
+}
+
+#frosting {
+    transform: scaleX(-1);
+    width: 100%;
+    min-width: 600px;
+    position: absolute;
+    z-index: 0;
+}
+
+#frosting-box {
+    position: relative;
+    padding: 100px;
+}
+
+#menu-title {
+    color: white;
+    margin: 0px;
+    display: flex;
+    font-size: 60px;
+}
+
+#section-donut {
+    margin: 170px 60px 0px 60px;
+}
+
+#section-drink {
+    margin: 60px 60px 0px 60px;
+}
+
+hr {
+    border-top: 2px solid #3F526F;
+    border-radius: 5px;  
+}
+
+.donut-type-text {
+    margin: 15px 60px 15px 60px;
+    font-style: italic;
+    color: #EE7390;
+    font-size: 18px;
+}
+
+
+#m-donut-row {
+    margin: 20px 60px 20px 60px;
+    display: flex;
+}
+
+.menu-item {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.menu-img {
+    height: 200px;
+    width: auto;
+}
+
+#contact {
+    margin: 0;
+    padding: 60px;
+    background-color: #FF84A1;
+}
+
+#c-text-holder p {
+    color: rgb(255, 228, 232);
+    font-weight: bold;
+    font-size: 18px;
+}
